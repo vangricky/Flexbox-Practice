@@ -6,7 +6,7 @@ h1 {
     text-align: center;
 }
 
-.container {
+#container {
     background-color: #003049;
     width: 90%;
     height: 500px;
@@ -33,3 +33,4 @@ h1 {
 .styles-5 {
     background-color: #6930c3;
 }
+
