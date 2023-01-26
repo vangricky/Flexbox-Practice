@@ -12,6 +12,21 @@ h1 {
     height: 500px;
     margin: 0 auto;
     border: 5px solid #003049;
+    display: flex ;
+    flex-direction: row; 
+    /* flex-direction is automatically set to 'row' when you type 'display: flex'. (goes across your screen) */
+    flex-direction: row-reverse;
+    /* flex-direction: row-reverse; is the same thing as row, but the positioning of the boxes are 'reversed' */
+    flex-direction: column;
+    /* flex-direction: column; makes the contents go from top to bottom, like a column*/
+    flex-direction: column-reverse;
+    /* flex-direction: column-reverse; same thing as row-reverse, but column style, everything is reversed in content. */
+    
+}
+
+#container div {
+    width: 200px;
+    height: 200px;
 }
 
 .styles-1 {
