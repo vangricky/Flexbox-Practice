@@ -24,24 +24,28 @@ h1 {
     justify-content: flex-start;
     /* justify-content: flex-start; puts the contents to the start. (if flex-direction is row
     then it will begin at the top left, spanning to the right. */
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     /* justify-content: flex-end; puts contents to the end, so if my flex-direction is 'row',
     my items will be placed on the right hand side, rather than the start at the left hand side*/
-    justify-content: center;
+    /* justify-content: center; */
     /* justify-content: center; puts content in the dead center of the page. */
-    justify-content: space-between;
+    /* justify-content: space-between; */
     /* justify-content: space-between; puts the content at the start of the page like 'flex-start', spanning 
     across the page, having SPACES inbetween each content box. */
-    justify-content: space-around;
+    /* justify-content: space-around; */
     /* justify-content: space-around; just like space-between, it has spaces 'around' (so before the box and between the boxes). */
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     /* justify-content: space-evenly; basically the same as 'space-around', but it EVENS the spaces out, LOL. */
-    
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap; all elemnts wraps top to bottom, top to bottom.. and so on. */
+    /* flex-wrap: wrap-reverse; */
+    /* flex-wrap: wrap-reverse; is the same thing as wrap, just starts at the opposite end. */
 }
 
 #container div {
     width: 200px;
     height: 200px;
+    text-align: center;
 }
 
 .styles-1 {
