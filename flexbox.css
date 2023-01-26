@@ -40,6 +40,8 @@ h1 {
     /* flex-wrap: wrap; all elemnts wraps top to bottom, top to bottom.. and so on. */
     /* flex-wrap: wrap-reverse; */
     /* flex-wrap: wrap-reverse; is the same thing as wrap, just starts at the opposite end. */
+    flex-wrap: nowrap;
+    /* flex-wrap: nowrap; means what it says, literally */
 }
 
 #container div {
@@ -68,3 +70,4 @@ h1 {
     background-color: #6930c3;
 }
 
+wasd wedd sas test this is ts fg rtr sdrg r
