@@ -15,12 +15,27 @@ h1 {
     display: flex ;
     flex-direction: row; 
     /* flex-direction is automatically set to 'row' when you type 'display: flex'. (goes across your screen) */
-    flex-direction: row-reverse;
+    /* flex-direction: row-reverse; */
     /* flex-direction: row-reverse; is the same thing as row, but the positioning of the boxes are 'reversed' */
-    flex-direction: column;
+    /* flex-direction: column; */
     /* flex-direction: column; makes the contents go from top to bottom, like a column*/
-    flex-direction: column-reverse;
+    /* flex-direction: column-reverse; */
     /* flex-direction: column-reverse; same thing as row-reverse, but column style, everything is reversed in content. */
+    justify-content: flex-start;
+    /* justify-content: flex-start; puts the contents to the start. (if flex-direction is row
+    then it will begin at the top left, spanning to the right. */
+    justify-content: flex-end;
+    /* justify-content: flex-end; puts contents to the end, so if my flex-direction is 'row',
+    my items will be placed on the right hand side, rather than the start at the left hand side*/
+    justify-content: center;
+    /* justify-content: center; puts content in the dead center of the page. */
+    justify-content: space-between;
+    /* justify-content: space-between; puts the content at the start of the page like 'flex-start', spanning 
+    across the page, having SPACES inbetween each content box. */
+    justify-content: space-around;
+    /* justify-content: space-around; just like space-between, it has spaces 'around' (so before the box and between the boxes). */
+    justify-content: space-evenly;
+    /* justify-content: space-evenly; basically the same as 'space-around', but it EVENS the spaces out, LOL. */
     
 }
 
