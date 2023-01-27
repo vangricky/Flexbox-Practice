@@ -42,6 +42,12 @@ h1 {
     /* flex-wrap: wrap-reverse; is the same thing as wrap, just starts at the opposite end. */
     flex-wrap: nowrap;
     /* flex-wrap: nowrap; means what it says, literally */
+    align-items: flex-start;
+    /* align-items: flex-start; aligns things from top to bottom. */
+    align-items: flex-end;
+    /* align-items: flex-end; aligns things from the bottom to top.  */
+    align-items: center;
+    /* align-items: center; aligns the items into the center. Use this with justify-items: center; to center all contents */
 }
 
 #container div {
