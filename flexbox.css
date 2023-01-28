@@ -48,6 +48,7 @@ h1 {
     /* align-items: flex-end; aligns things from the bottom to top.  */
     align-items: center;
     /* align-items: center; aligns the items into the center. Use this with justify-items: center; to center all contents */
+    align-content: space-between;
 }
 
 #container div {
